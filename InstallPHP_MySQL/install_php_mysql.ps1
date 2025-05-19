@@ -26,3 +26,11 @@ if (-not (Get-Command mysql -ErrorAction SilentlyContinue)) {
 } else {
     Write-Host "MySQL est déjà installé."
 }
+
+# Installation ou mise à jour de Git
+if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
+    Write-Host "Installation de Git..."
+    choco install git -y
+} else {
+    Write-Host "Git est déjà installé."
+}
