@@ -1,6 +1,6 @@
-# Installation automatique de PHP et MySQL sous Windows
+# Installation automatique de Chocolatey, Git, PHP et MySQL sous Windows
 
-Ce projet propose un outil simple pour vérifier si PHP et MySQL sont installés sur un PC Windows,  
+Ce projet propose un outil simple pour vérifier si Chocolatey, Git, PHP et MySQL sont installés sur un PC Windows,  
 et propose une installation automatique via Chocolatey si besoin.
 
 ---
@@ -16,9 +16,9 @@ et propose une installation automatique via Chocolatey si besoin.
 
 ## Fonctionnement
 
-1. Lancer `check_php_mysql.exe`.  
-2. Le programme vérifie si PHP et MySQL sont installés.  
-3. Si un ou les deux manquent, il propose de lancer l'installation automatique via Chocolatey.  
+1. Lancer `check_php_mysql.bat`.  
+2. Le programme vérifie si Choco, Git, PHP et MySQL sont installés.  
+3. Si un ou plusieurs manquent, il propose de lancer l'installation automatique via Chocolatey.  
 4. L'installation se fait en quelques clics (administrateur requis).
 
 ---
@@ -35,7 +35,8 @@ et propose une installation automatique via Chocolatey si besoin.
 
 - [PHP](https://windows.php.net/download)  
 - [MySQL](https://dev.mysql.com/downloads/mysql/)
-
+- [Git](https://git-scm.com/downloads)  
+- [Chocolatey](https://chocolatey.org/install)
 ---
 
 ## Compilation du programme C
